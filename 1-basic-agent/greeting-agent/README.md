@@ -37,6 +37,11 @@ parent_folder/
    - Always run `adk` commands from the parent directory (1-basic-agent), not from inside the agent directory (greeting-agent)
    - Example: Run `adk web` from the parent folder (1-basic-agent) that contains your agent folder (greeting-agent)
 
+4. **Init File**
+   - Entry point file must be named `__init__.py`
+   - This file must import the agent module: `from . import agent`
+   - This makes your agent discoverable by ADK
+
 This structure ensures that ADK can automatically discover and load your agent when running commands like `adk web` or `adk run`.
 
 ## Key Components

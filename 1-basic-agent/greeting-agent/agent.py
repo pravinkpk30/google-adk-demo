@@ -5,7 +5,7 @@ from google.adk.agents import Agent
 # This instance defines the agent's behavior and configuration
 root_agent = Agent(
     # Unique identifier for the agent
-    name="greeting_agent",
+    name="welcome_agent",
     
     # Specifies which LLM model to use (Gemini 2.0 Flash in this case)
     # Available models: https://ai.google.dev/gemini-api/docs/models

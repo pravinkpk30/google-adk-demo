@@ -5,21 +5,21 @@ This repository contains examples for learning Google's Agent Development Kit (A
 ### Setup Environment
 You only need to create one virtual environment for all examples in this course. Follow these steps to set it up:
 
-# Create virtual environment in the root directory
+### Create virtual environment in the root directory
 ```bash
 python -m venv .venv
 ```
 
-# Activate (each new terminal)
-# macOS/Linux:
+### Activate (each new terminal)
+#### macOS/Linux:
 ```bash
 source .venv/bin/activate
 ```
-# Windows CMD:
+#### Windows CMD:
 ```bash
 .venv\Scripts\activate.bat
 ```
-# Windows PowerShell:
+#### Windows PowerShell:
 ```bash
 .venv\Scripts\Activate.ps1
 ```
